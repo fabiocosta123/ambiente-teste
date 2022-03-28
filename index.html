@@ -17,12 +17,18 @@
         <main id="container">
             <form action="" class="container">
                 <label for="quantidade" class="quantidade"></label>
-                <input type="number" id="quantidade" name="quantidade" placeholder="quantidade">
+                <input type="number" id="quantidade" name="quantidade" placeholder="Qtde litros">
     
                 <label for="valorUnitario" class="valorUnitario"></label>
-                <input type="number" class="valorUnitario" name="valorUnitario" placeholder="valorUnitario">
+                <input type="number" id="valorUnitario" name="valorUnitario" placeholder="Preço Litro">
+
+                <label for="kmi"></label>
+                <input type="number" id="kmi" placeholder="Km inicial">
+
+                <label for="kmf"></label>
+                <input type="number" id="kmf" placeholder="Km final">
     
-                <button class="calcular" type="submit" value="calcular" name="calcular" onclick="calcular()"></button>
+                <input type="button" value="calcular" onclick="calcular()">
             </form>
         </main>
         <script src="ambiente.js"></script>
